@@ -6,7 +6,7 @@ from bson.objectid import ObjectId
 
 
 
-app = FastAPI()
+app = FastAPI(docs_url="/")
 
 # MongoDB connection
 client = MongoClient("mongodb+srv://pridhvi:pkm1234@cosmo.meqn6gt.mongodb.net/?retryWrites=true&w=majority&appName=cosmo")
